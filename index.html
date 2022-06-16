@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en-US">
+	<head>
+		<meta charset="UTF-8" />
+		<title>mini project</title>
+		<link rel="stylesheet" href="assets/css/style.css" />
+	</head>
+
+	<body>
+		<header>
+			<h2>Form fill in</h2>
+			<nav>
+				<ul>
+					<li>
+						<a href="#contact-me"> <strong>Contact me</strong> </a>
+					</li>
+					<li>
+						<a href="https://github.com/RainierDotulong" target="_blank">
+							<strong>Github</strong>
+						</a>
+					</li>
+					<li>
+						<a href="#footer"> <strong>Footer</strong> </a>
+					</li>
+				</ul>
+			</nav>
+		</header>
+
+		<form action="/action_page.php" method="post">
+			<div class="imageContainer">
+				<img
+					src="assets/images/image-1.png"
+					alt="purple circle with the number '1'"
+					class="placeholder"
+				/>
+			</div>
+			<div class="container">
+				<label for="username"><b>Username</b></label>
+				<input type="text" name="username" placeholder="Username" />
+				<label for="email"><b>E-mail</b></label>
+				<input type="text" name="email" placeholder="E-mail" />
+				<label for="others"><b>Others</b></label>
+				<input type="text" name="others" placeholder="others" />
+				<button type="button">Enter</button>
+			</div>
+		</form>
+
+		<section class="about-mes" id="about-me">
+			<div class="about-me">
+				<h3>About Me</h3>
+				<p>
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias,
+					distinctio soluta quidem adipisci dicta dolorum optio esse officia
+					blanditiis expedita laboriosam odit provident qui similique,
+					laudantium ratione totam, hic nobis?Lorem ipsum dolor sit amet
+					consectetur adipisicing elit. Quis exercitationem necessitatibus
+					consequuntur hic quisquam. Odio eos nobis eius. Nobis voluptate neque
+					harum laboriosam placeat amet cum voluptates. Eaque, voluptatum
+					provident! Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+					Quo placeat quas quia, corporis impedit dolorem soluta repellat
+					consequuntur omnis quaerat delectus corrupti nulla doloribus sapiente,
+					accusantium quae ullam pariatur ipsa? Lorem ipsum dolor sit amet
+					consectetur adipisicing elit. Atque modi quod eveniet quisquam fuga
+					dolore velit fugiat itaque iure excepturi beatae sint libero nemo
+					laboriosam, esse numquam quidem tenetur optio.
+				</p>
+			</div>
+		</section>
+
+		<aside class="asides" id="contact-me">
+			<div class="aside">
+				<h3>Contact me</h3>
+				<form action="/action_page.php">
+					<label for="fname">First Name</label>
+					<input
+						type="text"
+						id="fname"
+						name="firstname"
+						placeholder="Your name.."
+					/>
+					<label for="lname">Last Name</label>
+					<input
+						type="text"
+						id="lname"
+						name="lastname"
+						placeholder="Your last name.."
+					/>
+					<textarea
+						id="subject"
+						name="subject"
+						placeholder="Write something.."
+						style="height: 170px"
+					></textarea>
+					<button type="button">Send</button>
+				</form>
+			</div>
+		</aside>
+
+		<footer id="footer">
+			<h2>Made by Rainier</h2>
+			<p>&copy; 2022 Coding Bootcamp.</p>
+		</footer>
+	</body>
+</html>
